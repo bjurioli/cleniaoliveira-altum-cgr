@@ -57,11 +57,13 @@ html{scroll-behavior:smooth}
 .cab{background:var(--fundo);height:72px;padding:0 40px;display:flex;align-items:center}
 .cab-in{width:100%;max-width:1120px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
 .timer{display:flex;align-items:center;justify-content:center;gap:16px;height:48px;background:var(--salvia);color:var(--grafite);padding:0 40px}
-.timer-rot{font-size:13px;line-height:1.2;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.timer-on,.timer-off{display:flex;align-items:center;gap:14px;white-space:nowrap}
+.timer-off[hidden]{display:none}
+.timer-rot{font-size:12px;line-height:1;font-weight:600;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
 .timer-n{display:flex;gap:6px}
-.bloco{display:flex;align-items:baseline;justify-content:center;gap:3px;min-width:52px;background:var(--grafite);color:var(--papel);border-radius:6px;padding:6px 9px}
-.bloco b{font-family:var(--f-titulo);font-weight:400;font-size:20px;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
-.bloco span{font-size:11px;font-weight:600;text-transform:uppercase;color:var(--salvia)}
+.bloco{display:flex;align-items:baseline;justify-content:center;gap:2px;min-width:44px;background:var(--grafite);color:var(--papel);border-radius:6px;padding:5px 7px}
+.bloco b{font-family:var(--f-titulo);font-weight:400;font-size:17px;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.bloco span{font-size:10px;font-weight:600;line-height:1;text-transform:uppercase;color:var(--salvia)}
 .foto-img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%}
 .cab img{height:28px;width:auto}
 .cab .btn{min-height:44px;padding:12px 20px;font-size:13px}
@@ -256,11 +258,13 @@ html{scroll-behavior:smooth}
  .cab{height:64px;padding:0 28px}
  .cab img{height:22px}
  .cab .btn{padding:10px 14px;font-size:12px}
- .timer{height:52px;justify-content:space-between;gap:10px;padding:0 28px}
- .timer-rot{font-size:11px;max-width:110px}
- .timer-n{gap:4px}
- .bloco{min-width:0;padding:5px 7px}
- .bloco b{font-size:17px}
+ .timer{height:52px;justify-content:center;padding:0 16px}
+ .timer-on,.timer-off{gap:8px}
+ .timer-rot{font-size:10px;letter-spacing:.04em}
+ .timer-n{gap:3px}
+ .bloco{min-width:0;padding:4px 5px}
+ .bloco b{font-size:14px}
+ .bloco span{font-size:9px}
  .rodape{padding:56px 28px}
  .oferta{padding:32px 24px}
  .invest-grid{grid-template-columns:1fr;gap:40px;margin-top:40px}
