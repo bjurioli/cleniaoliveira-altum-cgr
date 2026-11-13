@@ -305,3 +305,13 @@ html{scroll-behavior:smooth}
  .whats{right:20px;bottom:20px}
  .ondas{height:140px}
 }
+
+@media (max-width:360px){
+ .timer{padding:0 10px}
+ .timer-on,.timer-off{gap:6px}
+ .timer-rot{font-size:9px;letter-spacing:.02em}
+ .timer-n{gap:2px}
+ .bloco{padding:3px 4px}
+ .bloco b{font-size:13px}
+ .bloco span{font-size:8px}
+}

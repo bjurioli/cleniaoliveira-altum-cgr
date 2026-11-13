@@ -12,7 +12,7 @@
 <link rel="icon" href="img/favicon.svg?v=1" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png?v=1" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png?v=1">
-<link rel="stylesheet" href="altum.css?v=20261111-2">
+<link rel="stylesheet" href="altum.css?v=20261113-1">
 <style>
 @font-face{font-family:"Century Gothic";src:url("fonts/century-gothic.ttf") format("truetype");font-weight:400;font-display:swap}
 @font-face{font-family:"Deuterium";src:url("fonts/deuterium.otf") format("opentype");font-weight:100 900;font-display:swap}
@@ -31,9 +31,9 @@ body{margin:0}
 </div>
 </header>
 
-<div class="timer" role="timer" aria-label="Tempo até o fim da oferta, 12 de novembro às 23h59">
+<div class="timer" role="timer" aria-label="Tempo até o fim das inscrições, 30 de novembro às 23h59">
 <span class="timer-on">
-<span class="timer-rot">Essa oferta termina em</span>
+<span class="timer-rot">As inscrições encerram em</span>
 <span class="timer-n">
 <span class="bloco"><b data-t="dd">--</b><span>d</span></span>
 <span class="bloco"><b data-t="hh">--</b><span>h</span></span>
@@ -42,7 +42,7 @@ body{margin:0}
 </span>
 </span>
 <span class="timer-off" hidden>
-<span class="timer-rot">Oferta encerrada</span>
+<span class="timer-rot">Inscrições encerradas</span>
 </span>
 </div>
 </div>
@@ -222,7 +222,7 @@ body{margin:0}
 <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11"></circle><path d="M7.5 12.5l3 3 6-6.5"></path></svg><span>18 encontros da mentoria em grupo (6 meses)</span></li>
 <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11"></circle><path d="M7.5 12.5l3 3 6-6.5"></path></svg><span>Acesso ao conteúdo e às aulas gravadas</span></li>
 </ul>
-<p class="era">Tudo que era <span class="era-valor">R$ 13.500,00</span></p>
+<p class="era">Tudo que era <span class="era-valor">R$ 4.997,00</span></p>
 <p class="preco-grande"><span class="moeda">R$</span>2.997</p>
 <p class="parc">ou&nbsp; 12 x R$310,08</p>
 <a class="btn btn-largo" href="https://pay.kiwify.com.br/pdIJXsZ">Quero garantir minha vaga</a>
@@ -230,7 +230,7 @@ body{margin:0}
 <div class="invest-frase">
 <p class="mesma">Mesma entrega, mas com</p>
 <p class="off"><mark class="marca-off">40% off</mark></p>
-<p class="invest-nota">O valor da mentoria é <span class="riscado">R$ 4.997</span>. Até 12 de novembro, às 23h59, você entra por <span class="forte">R$ 2.997</span>.</p>
+<p class="invest-nota">Inscrições abertas até <span class="forte">30 de novembro, às 23h59</span>.</p>
 </div>
 </div>
 </div>
@@ -269,7 +269,7 @@ body{margin:0}
 </div>
 <script>
 (function(){
-  var fim=Date.parse('2026-11-12T23:59:00-03:00');
+  var fim=Date.parse('2026-11-30T23:59:00-03:00');
   var on=document.querySelector('.timer-on'),off=document.querySelector('.timer-off');
   var el={};['dd','hh','mm','ss'].forEach(function(k){el[k]=document.querySelector('[data-t="'+k+'"]');});
   function dois(n){return String(n).padStart(2,'0');}
